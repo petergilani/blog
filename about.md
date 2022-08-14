@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-[Info](https://github.com/petergilani/petergilani)
+[Info](https://github.com/petergilani)
 
 ### More Information
 
