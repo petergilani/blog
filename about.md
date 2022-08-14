@@ -8,7 +8,7 @@ permalink: /about/
 
 ### More Information
 
-My name is Peter Gilani, and I am currently a Senior Network Security Architect at Rackspace where I have worked in the Network Security Team since I joined as a Network Security Administrator in 2010. My main focus for the last few years has been multicloud connectivity architecture.
+My name is Peter Gilani, and I am currently a Senior Network Security Architect at Rackspace where I have worked in the Network Security Team since I joined at the start of 2010. My main focus for the last few years has been multicloud connectivity architecture.
 
 Prior to Rackspace, I was a Pre-sales Networking Specialist and then a Service Desk Engineer for two other Cisco Partners.
 
