@@ -85,4 +85,4 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-m10c
+theme: m10c
