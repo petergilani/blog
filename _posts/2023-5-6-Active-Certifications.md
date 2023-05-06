@@ -3,6 +3,8 @@ layout: post
 title: Active Certifications
 ---
 
+![CCDP]({{ site.baseurl }}/images/ccdp_design_large.jpg "CCDP logo")
+
 ## Cisco
 * Cisco Certified DevNet Specialist - Core
 * Cisco Certified Specialist - Enterprise Design
