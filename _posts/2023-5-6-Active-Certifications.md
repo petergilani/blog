@@ -22,14 +22,10 @@ List of active Cisco certs:
 * 4011 Recognition
 
 ![DevNet Core]({{ site.baseurl }}/images/devnet_specialist_large.png "DevNet Core logo")
-
-x8 ![Specialist]({{ site.baseurl }}/images/specialist_large.jpg "Specialist logo")
-
+![Specialist]({{ site.baseurl }}/images/specialist_large.jpg "Specialist logo")
 ![CCNP Enterprise]({{ site.baseurl }}/images/CCNP_Enterprise_large.jpg "CCNP Enterprise logo")
 ![CCNP Security]({{ site.baseurl }}/images/ccnp_security_large.jpg "CCNP Security logo")
-
 ![CCNA]({{ site.baseurl }}/images/ccna_large.jpg "CCNA logo")
-
 ![CNSS]({{ site.baseurl }}/images/cnss.png "CNSS logo")
 
 ### Retired
