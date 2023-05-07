@@ -3,7 +3,7 @@ layout: post
 title: Active Certifications
 ---
 
-![CCDP]({{ site.baseurl }}/images/ccdp_design_large.jpg "CCDP logo")
+List of active Cisco certs:
 
 ## Cisco
 * Cisco Certified DevNet Specialist - Core
@@ -23,6 +23,7 @@ title: Active Certifications
 
 ### Retired
 * CCDP
+![CCDP]({{ site.baseurl }}/images/ccdp_design_large.jpg "CCDP logo")
 * CCSP
 * CCNP Routing and Switching
 * Cisco Information Security Specialist
