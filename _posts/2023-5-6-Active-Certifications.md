@@ -43,4 +43,5 @@ List of active Cisco certs:
 
 ![CCDP]({{ site.baseurl }}/images/ccdp_design_large.jpg "CCDP logo")
 ![CCSP]({{ site.baseurl }}/images/CCSP.jpeg "CCSP logo")
+![CCNP]({{ site.baseurl }}/images/ccnp_rs.png "CCNP logo")
 ![CCDA]({{ site.baseurl }}/images/ccda.png "CCDA logo")
