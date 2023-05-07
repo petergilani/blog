@@ -73,7 +73,7 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
-remote_theme: pages-themes/midnight
+remote_theme: pages-themes/slate
 
 # Use the following plug-ins
 plugins:
