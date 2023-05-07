@@ -22,8 +22,7 @@ List of active Cisco certs:
 * 4011 Recognition
 
 ### Retired
-* CCDP
-![CCDP]({{ site.baseurl }}/images/ccdp_design_large.jpg "CCDP logo")
+* CCDP![CCDP]({{ site.baseurl }}/images/ccdp_design_large.jpg "CCDP logo")
 * CCSP
 * CCNP Routing and Switching
 * Cisco Information Security Specialist
