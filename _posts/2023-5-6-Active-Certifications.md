@@ -23,9 +23,6 @@ List of active Cisco certs:
 
 ### Retired
 * CCDP
-
-![CCDP]({{ site.baseurl }}/images/ccdp_design_large.jpg "CCDP logo")
-
 * CCSP
 * CCNP Routing and Switching
 * Cisco Information Security Specialist
@@ -36,4 +33,7 @@ List of active Cisco certs:
 * CCNA Routing and Switching
 * SMB Engineer
 * SBCSEN
+
+![CCDP]({{ site.baseurl }}/images/ccdp_design_large.jpg "CCDP logo")
+![CCSP]({{ site.baseurl }}/images/CCSP.jpeg "CCSP logo")
 
