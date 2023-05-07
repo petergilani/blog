@@ -20,6 +20,8 @@ Last year in 2022, I attended a work tailored [Palo Alto EDU-210 Training course
 
 Recently this year in 2023, I attended an internal two day Project Management Series training, completed the [Cisco Rev Up to Recert: Python training course](https://learningnetwork.cisco.com/s/learning-plan-detail-standard?ltui__urlRecordId=a1c6e00000AUqSGAA1&ltui__urlRedirect=learning-plan-detail-standard&ccid=revup-to-recert&dtid=email&oid=revup-to-recert-python), and passed the [Cisco DEVCOR 350-901 exam](https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/devcor-350-901.html), earning the [DevNet Specialist - Core certification](https://developer.cisco.com/certification/devnet-core/). I am currently preparing for the [Cisco DevNet Expert lab exam](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/devnet-expert.html), and may also spend some time on the [AWS Advanced Networking - Speciality](https://aws.amazon.com/certification/certified-advanced-networking-specialty/), and [Azure](https://learn.microsoft.com/en-us/certifications/azure-network-engineer-associate/) and [GCP](https://cloud.google.com/learn/certification/cloud-network-engineer) network engineer certifications. 
 
+List of certs at [Active Certifications]({{ site.baseurl }}/Active-Certifications/)
+
 ### Contact me
 
 [petergilani@gmail.com](mailto:petergilani@gmail.com)
