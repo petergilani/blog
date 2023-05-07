@@ -3,11 +3,6 @@ layout: post
 title: Active Certifications
 ---
 
-img {
-  height: 200px;
-  width: 200px;
-}
-
 List of active Cisco certs:
 
 ## Cisco
