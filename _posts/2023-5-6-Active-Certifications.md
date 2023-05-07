@@ -22,10 +22,15 @@ List of active Cisco certs:
 * 4011 Recognition
 
 ![DevNet Core]({{ site.baseurl }}/images/devnet_specialist_large.png "DevNet Core logo")
+
+x8 ![Specialist]({{ site.baseurl }}/images/specialist_large.jpg "Specialist logo")
+
 ![CCNP Enterprise]({{ site.baseurl }}/images/CCNP_Enterprise_large.jpg "CCNP Enterprise logo")
 ![CCNP Security]({{ site.baseurl }}/images/ccnp_security_large.jpg "CCNP Security logo")
-![Specialist]({{ site.baseurl }}/images/specialist_large.jpg "Specialist logo")
+
 ![CCNA]({{ site.baseurl }}/images/ccna_large.jpg "CCNA logo")
+
+![CNSS]({{ site.baseurl }}/images/cnss.png "CNSS logo")
 
 ### Retired
 * CCDP
@@ -42,4 +47,4 @@ List of active Cisco certs:
 
 ![CCDP]({{ site.baseurl }}/images/ccdp_design_large.jpg "CCDP logo")
 ![CCSP]({{ site.baseurl }}/images/CCSP.jpeg "CCSP logo")
-
+![CCDA]({{ site.baseurl }}/images/ccda.png "CCDA logo")
