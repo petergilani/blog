@@ -73,7 +73,7 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
-theme: hacker
+remote_theme: pages-themes/hacker
 
 # Use the following plug-ins
 plugins:
