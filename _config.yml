@@ -73,13 +73,12 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
-remote_theme: pages-themes/architect@v0.2.0
+theme: minima
 
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-remote-theme
 
 # Exclude these files from your production _site
 exclude:
