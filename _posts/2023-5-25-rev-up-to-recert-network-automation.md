@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rev Up to Recert: Network Automation and Cisco U
+title: Rev Up to Recert - Network Automation and Cisco U
 ---
 
 It already been one week since Cisco's Lead Community Manager, Matt Saunders, teased the upcoming announcement of the latest Rev Up to Recert round:
