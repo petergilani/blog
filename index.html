@@ -6,6 +6,8 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
+      <span class="post-meta"><em>{{ post.date | date: "%-d %b, %Y" }}</em></span>
+
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       
       <div class="entry">
@@ -13,8 +15,7 @@ layout: default
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      <br><br>
-      <span class="post-meta">{{ post.date | date: "%-d %b, %Y" }}</span>
+      
     </article>
   {% endfor %}
 </div>
