@@ -6,12 +6,11 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <span class="post-meta"><em>{{ post.date | date: "%-d %b, %Y" }}</em></span>
       <div class="entry">
         {{ post.excerpt }}
       </div>
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      <br>
-      <span class="post-meta"><em>{{ post.date | date: "%-d %b, %Y" }}</em></span>
     </article>
   {% endfor %}
 </div>
