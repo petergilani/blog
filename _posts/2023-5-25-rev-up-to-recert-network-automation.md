@@ -5,7 +5,7 @@ title: Rev Up to Recert - Network Automation and Cisco U.
 
 The new [Network Automation](https://learningnetwork.cisco.com/s/question/0D56e0000CytbYNCQY/rev-up-to-recert-network-automation-and-cisco-u) learning path was announced yesterday:
 
-![DEVNAE Free]({{ site.baseurl }}/images/devnae-free.jpg "DEVNAE Free")(https://learningnetwork.cisco.com/s/question/0D56e0000CytbYNCQY/rev-up-to-recert-network-automation-and-cisco-u)
+[![DEVNAE Free]({{ site.baseurl }}/images/devnae-free.jpg "DEVNAE Free")](https://learningnetwork.cisco.com/s/question/0D56e0000CytbYNCQY/rev-up-to-recert-network-automation-and-cisco-u)
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"></p>
 <a href="https://twitter.com/citylifematt/status/1661443981086167040"></a>
