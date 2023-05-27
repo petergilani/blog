@@ -17,9 +17,9 @@ This was one week following the initial teaser from Cisco's Lead Community Manag
 
 It is available on the new Cisco U. learning platform:
 
-[![DEVNAE Free]({{ site.baseurl }}/images/devnae-free.jpg "DEVNAE Free")](https://u.cisco.com/path/3)
-
 ![Cisco U. Welcome]({{ site.baseurl }}/images/cisco_u_welcome.jpeg "Cisco U. Welcome")
+
+[![DEVNAE Free]({{ site.baseurl }}/images/devnae-free.jpg "DEVNAE Free")](https://u.cisco.com/path/3)
 
 The title is 'Understanding Cisco Network Automation Essentials (DEVNAE 1.0)' which is classified as Intermediate level with just under 30 hours of content (almost double the previous [Rev Up to Recert: Python course](https://learningnetwork.cisco.com/s/learning-plan-detail-standard?ltui__urlRecordId=a1c6e00000AUqSGAA1&ltui__urlRedirect=learning-plan-detail-standard&ccid=revup-to-recert&dtid=email&oid=revup-to-recert-python)) with only 1 additional (16) CE (Continuing Education) credits:
 
