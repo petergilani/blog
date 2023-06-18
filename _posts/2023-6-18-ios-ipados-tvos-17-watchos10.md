@@ -3,6 +3,7 @@ layout: post
 title: iOS/iPad/tvOS 17 and watchOS 10
 ---
 ![iOS 17](https://developer.apple.com/assets/elements/icons/ipados-17-num/ipados-17-num-96x96_2x.png "iOS 17 logo")
+
 Apple announced the new OSs at [WWDC 2023 on June 5th](https://developer.apple.com/wwdc23/):
 {% include youtube.html id="GYkq9Rgoj8E" %}
 
