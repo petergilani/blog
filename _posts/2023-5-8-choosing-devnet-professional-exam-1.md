@@ -2,7 +2,7 @@
 layout: post
 title: Choosing a DevNet Professional Exam - Part 1
 ---
-
+![DevNet Pro Logo](https://images.credly.com/size/680x680/images/3c535132-dd19-4e1b-9861-535d27dfbbb6/DevNetPro_600.png "DevNet Pro Logo")
 Since passing the DEVCOR 350-901, I can take one of the following to complete the DevNet Professional certification:
 
 * **[300-435 ENAUTO](https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/enauto-300-435.html)**
