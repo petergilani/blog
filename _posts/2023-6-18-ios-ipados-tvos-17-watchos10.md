@@ -2,7 +2,7 @@
 layout: post
 title: iOS/iPad/tvOS 17 and watchOS 10
 ---
-[![iOS 17](https://developer.apple.com/assets/elements/icons/ipados-17-num/ipados-17-num-96x96_2x.png "iOS 17 logo")]({{ site.baseurl }}{{ post.url }})
+[![iOS 17](https://developer.apple.com/assets/elements/icons/ipados-17-num/ipados-17-num-96x96_2x.png "iOS 17 logo")]({{ site.baseurl }}ios-ipados-tvos-17-watchos10/)
 
 Apple announced the new OSs at [WWDC 2023 on June 5th](https://developer.apple.com/wwdc23/):
 {% include youtube.html id="GYkq9Rgoj8E" %}
@@ -15,7 +15,7 @@ Apple announced the new OSs at [WWDC 2023 on June 5th](https://developer.apple.c
 ## Press releases 
 - [iOS](https://www.apple.com/uk/newsroom/2023/06/ios-17-makes-iphone-more-personal-and-intuitive/)
 - [iPadOS](https://www.apple.com/uk/newsroom/2023/06/ipados-17-brings-new-levels-of-personalization-and-versatility-to-ipad/)
-- [watchOS](https://www.apple.com/uk/newsroom/2023/06/introducing-watchos-10-a-milestone-update-for-apple-watch/).
+- [watchOS](https://www.apple.com/uk/newsroom/2023/06/introducing-watchos-10-a-milestone-update-for-apple-watch/)
 
 One feature to keep an eye on is [FaceTime for tvOS](https://www.apple.com/uk/newsroom/2023/06/tvos-17-brings-facetime-and-video-conferencing-to-apple-tv-4k/), which I see becoming the new default for calls with family and close friends.
 
