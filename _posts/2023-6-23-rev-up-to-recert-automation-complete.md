@@ -1,13 +1,15 @@
 ---
 layout: post
-title: Rev Up to Recert - Network Automation  - Complete [x]
+title: Rev Up to Recert - Network Automation  - Complete
 ---
 Today I completed the [Understanding Cisco Network Automation Essentials (DEVNAE) learning path on Cisco U.](https://blog.petergilani.com/rev-up-to-recert-network-automation) as part of the latest Rev Up to Recert offering:
+
 [![DEVNAE Complete Small]({{ site.baseurl }}/images/devnae-complete-small.jpg "DEVNAE Complete Small")](https://blog.petergilani.com/rev-up-to-recert-automation-complete/)
 
 While I was able to skip through the majority of sections thanks to the pre-assessments, there was still a significant amount of material to cover which was split between videos, pages to read through and hands on labs.
 
 Here is an overview of the curriculum:
+
 ![DEVNAE Complete Full]({{ site.baseurl }}/images/devnae-complete-full.jpg "DEVNAE Complete Full")
 
 Topics I needed to cover included Understanding YANG Models and Orchestrating Network Services with Cisco NSO - both of which provided great hands on labs where I got to play with:
