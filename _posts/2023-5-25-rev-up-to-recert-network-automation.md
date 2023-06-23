@@ -36,4 +36,4 @@ At this rate, this should end up taking up less time than the Python round, whil
 
 This all helps towards my current primary goal (DevNet Expert), so overall I am delighted with this round of Rev Up to Recert - the DevNet focus is great and the delivery with Cisco U. and pre-assessments make this an effective use of students' time regardless of their familiarity with the learning path.
 
-I will update this post with additional info as and when time permits.
+**[Update 23rd June 2023 - course completed.]({{ site.baseurl }}/rev-up-to-recert-automation-complete/)**
