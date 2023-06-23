@@ -12,13 +12,13 @@ Here is an overview of the curriculum:
 ![DEVNAE Complete Full]({{ site.baseurl }}/images/devnae-complete-full.jpg "DEVNAE Complete Full")
 
 Topics I needed to cover included Understanding YANG Models and Orchestrating Network Services with Cisco NSO - both of which provided great hands on labs where I got to play with:
-- Cisco YANG Suite
+- [Cisco YANG Suite](https://developer.cisco.com/docs/yangsuite/)
   - Created a device profile for a CSR router
   - Retrieved YANG models, stored in repository and organized in YANG Sets
   - Expanded and observed ietf-interfaces module tree structure
   - Read filtered device config by building and running NETCONF RPC requests
   - Built and ran RPC to configure a new loopback interface on the router
-- Cisco Network Services Orchestrator (NSO)
+- [Cisco Network Services Orchestrator (NSO)](https://developer.cisco.com/docs/nso/)
   - Started NSO local instance on Linux VM and launched NSO CLI
   - Viewed device configuration data in different formats
   - Configured a device from NSO CLI
