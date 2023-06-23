@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rev Up to Recert - Network Automation  - Complete
+title: Completed Rev Up to Recert - Network Automation
 ---
 Today I completed the [Understanding Cisco Network Automation Essentials (DEVNAE) learning path on Cisco U.](https://blog.petergilani.com/rev-up-to-recert-network-automation) as part of the latest Rev Up to Recert offering:
 
