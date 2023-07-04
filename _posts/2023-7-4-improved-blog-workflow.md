@@ -4,9 +4,15 @@ title: Improved Blog Workflow
 ---
 
 Since starting the blog nearly 2 months ago, I've used the following setup:
-![Old Blog Workflow]({{ site.baseurl }}/images/old_blog_workflow.jpeg "Old Blog Workflow")
+[![Old Blog Workflow]({{ site.baseurl }}/images/old_blog_workflow.jpeg "Old Blog Workflow")]({{ site.baseurl }}/improved-blog-workflow/)
 
-From the iPad, RDP to local Windows machine with Visual Studio Code which opens remote folder via SSH on local Raspberry Pi running Ubuntu where I add and edit the blog files, and then stage, commit and push up to Github which triggers an action to rebuild and deploy the blog in [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages). While this may appear convoluted, it works great and allows everything to be done from Visual Studio Code.
+- RDP from iPad to local Windows machine with Visual Studio Code
+ - Open remote folder via SSH on local Raspberry Pi running Ubuntu
+  - Blog files are added/edited
+  - Stage, commit and push up to Github
+   - Action triggered to rebuild and deploy the blog in [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+  
+While this may appear convoluted, it works great and allows everything to be done from Visual Studio Code.
 
 I could've instead used WSL (Windows Subsystem for Linux) and pushed to Github from the Windows machine, however, as a project I wanted to build the blog specifically on my Raspberry Pi, to add to the extensive functionality it already provides (LED clock coloured based on room temperature, humidity/pressure monitoring, console jumphost for physical prob and lab firewalls, telegraf ICMP/SSH/SNMP monitoring for virtual lab devices in EVE-NG or CML, etc).
 
@@ -16,7 +22,7 @@ But since discovering [Visual Studio Code for the Web](https://code.visualstudio
 
 ![VSC Web Push]({{ site.baseurl }}/images/vscweb-push.jpeg "VSC Web Push")
 
-/* Not quite ALL - Code Spell Checker [extension](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) is not yet available for VSC on the web and I was not able to find an alternative that is. 
+* Not quite ALL - Code Spell Checker [extension](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) is not yet available for VSC on the web and I was not able to find an alternative that is. 
  
 That said, the improvements are worth this tradeoff and I can live with copy/pasting into another app to spell check before I commit+push, at least until a compatible extension emerges.
 
