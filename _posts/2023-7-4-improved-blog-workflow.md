@@ -6,11 +6,11 @@ title: Improved Blog Workflow
 Since starting the blog nearly 2 months ago, I've used the following setup:
 [![Old Blog Workflow]({{ site.baseurl }}/images/old_blog_workflow.jpeg "Old Blog Workflow")]({{ site.baseurl }}/improved-blog-workflow/)
 
-* RDP from iPad to local Windows machine with Visual Studio Code
-** Open remote folder via SSH on local Raspberry Pi running Ubuntu
-*** Blog files are added/edited
-*** Stage, commit and push up to Github
-**** Action triggered to rebuild and deploy the blog in [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+- RDP from iPad to local Windows machine with Visual Studio Code
+- Open remote folder via SSH on local Raspberry Pi running Ubuntu
+- Blog files are added/edited
+- Stage, commit and push up to Github
+- Action triggered to rebuild and deploy the blog in [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
   
 While this may appear convoluted, it works great and allows everything to be done from Visual Studio Code.
 
