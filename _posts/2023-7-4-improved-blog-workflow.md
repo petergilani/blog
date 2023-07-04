@@ -14,7 +14,7 @@ Since starting the blog nearly 2 months ago, I've used the following setup:
   
 While this may appear convoluted, it works great and allows everything to be done from Visual Studio Code.
 
-I could've instead used WSL (Windows Subsystem for Linux) and pushed to Github from the Windows machine, however, as a project I wanted to build the blog specifically on my Raspberry Pi, to add to the extensive functionality it already provides (LED clock coloured based on room temperature, humidity/pressure monitoring, console jumphost for physical prob and lab firewalls, telegraf ICMP/SSH/SNMP monitoring for virtual lab devices in EVE-NG or CML, etc).
+I could've instead used WSL (Windows Subsystem for Linux) and pushed to Github from the Windows machine, however, as a project I wanted to build the blog specifically on my Raspberry Pi, to add to the extensive functionality it already provides (LED clock coloured based on room temperature, humidity/pressure monitoring, console jumphost for physical prod and lab firewalls, Telegraf ICMP/SSH/SNMP monitoring for virtual lab devices in EVE-NG or CML, etc).
 
 But since discovering [Visual Studio Code for the Web](https://code.visualstudio.com/docs/editor/vscode-web) - [vscode.dev](https://vscode.dev/), things have become a lot easier. All the functionality* required from Visual Studio Code for a simple blog works great in the local browser. I can drag and drop files such as images straight into their respective folder, changes are auto saved + staged, and I can commit + push with the single press of a button (with the ability to add a commit message!) - there is no longer any need for a terminal:
 
