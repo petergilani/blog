@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Completed AZ-700 Designing and Implementing Microsoft Azure Networking Solutions Learning Path
+title: Completed AZ-700 Learning Path - Designing and Implementing Microsoft Azure Networking Solutions
 ---
 
 Today I completed the AZ-700 Designing and Implementing Microsoft Azure Networking Solutions [learning path](https://learn.microsoft.com/en-gb/training/achievements/learn.wwl.designing-implementing-microsoft-azure-networking-solutions-az-700.trophy?username=petergilani):
