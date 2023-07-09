@@ -9,9 +9,11 @@ Today I completed the Design and Implement Microsoft Azure Network Solutions [le
 
 The course is a total of 9 hr 25 min and consists of the following 8 modules:
 
+<div align="center">
+
 | Badge | Module |
 | ----- | ------ |
-| <center>![Introduction to Azure Virtual Networks](https://learn.microsoft.com/en-us/training/achievements/introduction-to-azure-virtual-networks.svg)</center> | Introduction to Azure Virtual Networks |
+| ![Introduction to Azure Virtual Networks](https://learn.microsoft.com/en-us/training/achievements/introduction-to-azure-virtual-networks.svg) | Introduction to Azure Virtual Networks |
 | ![Design and implement hybrid networking](https://learn.microsoft.com/en-us/training/achievements/hybrid-networking-implement.svg) | Design and implement hybrid networking |
 | ![Design and implement Azure ExpressRoute](https://learn.microsoft.com/en-us/training/achievements/express-route-design-implement.svg) | Design and implement Azure ExpressRoute |
 | ![Load balance non-HTTP(S) traffic in Azure](https://learn.microsoft.com/en-us/training/achievements/load-balancing-non-https-traffic-in-azure.svg) | Load balance non-HTTP(S) traffic in Azure |
@@ -19,6 +21,8 @@ The course is a total of 9 hr 25 min and consists of the following 8 modules:
 | ![Design and implement network security](https://learn.microsoft.com/en-us/training/achievements/6-design-and-implement-network-security-and-monitoring.svg) | Design and implement network security |
 | ![Design and implement private access to Azure Services](https://learn.microsoft.com/en-us/training/achievements/design-and-implement-private-access-to-azure-services.svg) | Design and implement private access to Azure Services |
 | ![Design and implement network monitoring](https://learn.microsoft.com/en-us/training/achievements/network-monitoring-design-implement.svg) | Design and implement network monitoring |
+
+</div>
 
 
 While the learning materials are good, all of the exercises are videos where you click or use arrow keys to progress to the next task, despite all being in the Azure Portal. This provided a good demo but was a big step down to the last Cisco U. [course]({{ site.baseurl }}/rev-up-to-recert-automation-complete/) where the labs provided a real hands on experience.
