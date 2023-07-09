@@ -8,7 +8,7 @@ Today I completed the Design and Implement Microsoft Azure Networking Solutions 
 
 
 The course is a total of 9 hr 25 min and consists of the following 8 modules:
-<b>
+<br>
 
 | Badge | Module |
 |:-----:|:------:|
@@ -21,7 +21,7 @@ The course is a total of 9 hr 25 min and consists of the following 8 modules:
 | ![Design and implement private access to Azure Services](https://learn.microsoft.com/en-us/training/achievements/design-and-implement-private-access-to-azure-services.svg) | Design and implement private access to Azure Services |
 | ![Design and implement network monitoring](https://learn.microsoft.com/en-us/training/achievements/network-monitoring-design-implement.svg) | Design and implement network monitoring |
 
-<b>
+<br>
 While the learning materials are good, all of the exercises are videos where you click or use arrow keys to progress to the next task, despite all being in the Azure Portal. This provided a good demo but was a big step down to the last Cisco U. [course]({{ site.baseurl }}/rev-up-to-recert-automation-complete/) where the labs provided a real hands on experience.
 
 I've also gone through the new exam prep [videos](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-700-design-and-implement-core-networking-infrastructure-1-of-5) (1 hr  25 min), as well several runs of the practice assessments (50 Qs each), and will be booking the [exam](https://learn.microsoft.com/en-gb/certifications/exams/az-700//) soon in order to earn the Azure Network Engineer Associate [certification](https://learn.microsoft.com/en-us/certifications/azure-network-engineer-associate/).
