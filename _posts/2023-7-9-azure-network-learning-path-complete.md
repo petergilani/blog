@@ -3,11 +3,12 @@ layout: post
 title: Completed AZ-700 Learning Path - Designing and Implementing Microsoft Azure Networking Solutions
 ---
 
-Today I completed the Design and Implement Microsoft Azure Network Solutions [learning path](https://learn.microsoft.com/en-gb/training/achievements/learn.wwl.designing-implementing-microsoft-azure-networking-solutions-az-700.trophy?username=petergilani):
+Today I completed the Design+Implement Microsoft Azure Network Solutions [learning path](https://learn.microsoft.com/en-gb/training/achievements/learn.wwl.designing-implementing-microsoft-azure-networking-solutions-az-700.trophy?username=petergilani):
 [![Designing and Implementing Microsoft Azure Networking Solutions Logo](https://learn.microsoft.com/en-gb/training/achievements/designing-implementing-microsoft-azure-networking-solutions.svg)]({{ site.baseurl }}/azure-network-learning-path-complete)
 
 
 The course is a total of 9 hr 25 min and consists of the following 8 modules:
+
 
 | Badge | Module |
 |:-----:|:------:|
@@ -19,6 +20,7 @@ The course is a total of 9 hr 25 min and consists of the following 8 modules:
 | ![Design and implement network security](https://learn.microsoft.com/en-us/training/achievements/6-design-and-implement-network-security-and-monitoring.svg) | Design and implement network security |
 | ![Design and implement private access to Azure Services](https://learn.microsoft.com/en-us/training/achievements/design-and-implement-private-access-to-azure-services.svg) | Design and implement private access to Azure Services |
 | ![Design and implement network monitoring](https://learn.microsoft.com/en-us/training/achievements/network-monitoring-design-implement.svg) | Design and implement network monitoring |
+
 
 
 While the learning materials are good, all of the exercises are videos where you click or use arrow keys to progress to the next task, despite all being in the Azure Portal. This provided a good demo but was a big step down to the last Cisco U. [course]({{ site.baseurl }}/rev-up-to-recert-automation-complete/) where the labs provided a real hands on experience.
