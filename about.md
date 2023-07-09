@@ -22,7 +22,7 @@ So far this year in 2023, I attended an internal two day Project Management Seri
 
 I am currently preparing for the [Azure Network Engineer Associate](https://learn.microsoft.com/en-us/certifications/azure-network-engineer-associate/) and [Cisco DevNet Expert lab exam](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/devnet-expert.html), and may also spend some time on the [AWS Advanced Networking - Speciality](https://aws.amazon.com/certification/certified-advanced-networking-specialty/), [Google Professional Cloud Network Engineer](https://cloud.google.com/learn/certification/cloud-network-engineer) and [Oracle Multicloud Architect Associate](https://education.oracle.com/oracle-cloud-infrastructure-2023-certified-security-professional/trackp_OCI23MCCA) certifications.
 
-List of [Active Certifications]({{ site.baseurl }}/Active-Certifications/)
+List of [Active Certifications]({{ site.baseurl }}/active-certifications/)
 
 ### Contact me
 
