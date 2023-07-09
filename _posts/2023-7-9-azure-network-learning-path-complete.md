@@ -12,7 +12,7 @@ The course is a total of 9 hr 25 min and consists of the following 8 modules:
 | Badge | Module |
 | ----- | ------ |
 | [![Introduction to Azure Virtual Networks](https://learn.microsoft.com/en-us/training/achievements/introduction-to-azure-virtual-networks.svg) "Introduction to Azure Virtual Networks Badge"]      | Introduction to Azure Virtual Networks       |
-| [![Design and implement hybrid networking](https://learn.microsoft.com/en-us/training/achievements/hybrid-networking-implement.svg) "Design and implement hybrid networking"[]  | Design and implement hybrid networking        |
+| [![Design and implement hybrid networking](https://learn.microsoft.com/en-us/training/achievements/hybrid-networking-implement.svg) "Design and implement hybrid networking"]  | Design and implement hybrid networking        |
 | [![Design and implement Azure ExpressRoute](https://learn.microsoft.com/en-us/training/achievements/express-route-design-implement.svg) "Design and implement Azure ExpressRoute"] | Design and implement Azure ExpressRoute |
 | [![Load balance non-HTTP(S) traffic in Azure](https://learn.microsoft.com/en-us/training/achievements/load-balancing-non-https-traffic-in-azure.svg) "Load balance non-HTTP(S) traffic in Azure"] | Load balance non-HTTP(S) traffic in Azure |
 | [![Load balance HTTP(S) traffic in Azure](https://learn.microsoft.com/en-us/training/achievements/5-load-balancing-https-traffic-in-azure.svg) "Load balance HTTP(S) traffic in Azure"] | Load balance HTTP(S) traffic in Azure |
