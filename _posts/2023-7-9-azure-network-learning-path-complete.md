@@ -8,7 +8,7 @@ Today I completed the Design and Implement Microsoft Azure Networking Solutions 
 
 
 The course is a total of 9 hr 25 min and consists of the following 8 modules:
-<br>
+<br><br>
 
 | Badge | Module |
 |:-----:|:------:|
