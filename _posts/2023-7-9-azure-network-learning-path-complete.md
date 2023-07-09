@@ -4,12 +4,13 @@ title: Completed AZ-700 Learning Path - Designing and Implementing Microsoft Azu
 ---
 
 [![Designing and Implementing Microsoft Azure Networking Solutions Logo](https://learn.microsoft.com/en-gb/training/achievements/designing-implementing-microsoft-azure-networking-solutions.svg)]({{ site.baseurl }}/azure-network-learning-path-complete)
+
 Today I completed the AZ-700 Designing and Implementing Microsoft Azure Networking Solutions [learning path](https://learn.microsoft.com/en-gb/training/achievements/learn.wwl.designing-implementing-microsoft-azure-networking-solutions-az-700.trophy?username=petergilani).
 
 The course is a total of 9 hr 25 min and consists of the following 8 modules:
 
 | Badge | Module |
-| ----- | -------|
+| ----- | ------ |
 | [![Introduction to Azure Virtual Networks](https://learn.microsoft.com/en-us/training/achievements/introduction-to-azure-virtual-networks.svg) "Introduction to Azure Virtual Networks Badge"]      | Introduction to Azure Virtual Networks       |
 | [![Design and implement hybrid networking](https://learn.microsoft.com/en-us/training/achievements/hybrid-networking-implement.svg) "Design and implement hybrid networking"[]  | Design and implement hybrid networking        |
 | [![Design and implement Azure ExpressRoute](https://learn.microsoft.com/en-us/training/achievements/express-route-design-implement.svg) "Design and implement Azure ExpressRoute"] | Design and implement Azure ExpressRoute |
