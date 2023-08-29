@@ -3,7 +3,7 @@ layout: post
 title: Active Certifications
 ---
 
-List of active Cisco certs:
+List of active certs:
 
 ## Cisco
 * Cisco Certified DevNet Specialist - Core
@@ -27,6 +27,11 @@ List of active Cisco certs:
 ![CCNP Security]({{ site.baseurl }}/images/ccnp_security_large.jpg "CCNP Security logo")
 ![CCNA]({{ site.baseurl }}/images/ccna_large.jpg "CCNA logo")
 ![CNSS]({{ site.baseurl }}/images/cnss.png "CNSS logo")
+
+## Microsoft
+* Microsoft Certified - Azure Network Engineer Associate [verify](https://learn.microsoft.com/api/credentials/share/en-gb/petergilani/83482A5A4BA77ADC)
+
+![microsoft-certified-associate-badge](https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg)
 
 ### Retired
 * CCDP
