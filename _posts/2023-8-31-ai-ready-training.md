@@ -14,3 +14,10 @@ One new concept for me which I liked is the 'ditial twin', which has similaritie
 I've heavily relied on regular virtualised labbing for the last ~7 years, in order to validate new network designs/modifications/migrations, to great levels of detail, where I simulate the same topology/platoforms/code versions/features etc. However, it had not occured to me before that the same could be done for a car manufacturing process for [example](https://techcrunch.com/2023/01/03/mercedes-to-use-nvidias-digital-twin-tech-to-modernize-its-factories/), where instead of network devices, a factory, machines and workers are virtualised.
 
 There are elements of the digital twin, which I think could enhance network labbing, such as real-time monitoring of the real system being represented, which is something I plan to explore in a future post.
+
+Related reading:
+- https://en.wikipedia.org/wiki/Digital_twin
+- https://aws.amazon.com/what-is/digital-twin/
+- https://learn.microsoft.com/en-us/azure/digital-twins/overview
+- https://docs.oracle.com/en/cloud/paas/iot-cloud/iotgs/iot-digital-twin-framework.html
+- https://www.networkworld.com/article/3280225/what-is-digital-twin-technology-and-why-it-matters.html
