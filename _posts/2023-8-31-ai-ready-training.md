@@ -16,8 +16,8 @@ I've heavily relied on regular virtualised labbing for the last ~7 years, in ord
 There are elements of the digital twin, which I think could enhance network labbing, such as real-time monitoring of the real system being represented, which is something I plan to explore in a future post.
 
 Related reading:
-- [https://en.wikipedia.org/wiki/Digital_twin]
-- https://aws.amazon.com/what-is/digital-twin/
-- https://learn.microsoft.com/en-us/azure/digital-twins/overview
-- https://docs.oracle.com/en/cloud/paas/iot-cloud/iotgs/iot-digital-twin-framework.html
-- https://www.networkworld.com/article/3280225/what-is-digital-twin-technology-and-why-it-matters.html
+- [https://en.wikipedia.org/wiki/Digital_twin](https://en.wikipedia.org/wiki/Digital_twin)
+- [https://aws.amazon.com/what-is/digital-twin/](https://aws.amazon.com/what-is/digital-twin/)
+- [https://learn.microsoft.com/en-us/azure/digital-twins/overview](https://learn.microsoft.com/en-us/azure/digital-twins/overview)
+- [https://docs.oracle.com/en/cloud/paas/iot-cloud/iotgs/iot-digital-twin-framework.html](https://docs.oracle.com/en/cloud/paas/iot-cloud/iotgs/iot-digital-twin-framework.html)
+- [https://www.networkworld.com/article/3280225/what-is-digital-twin-technology-and-why-it-matters.html](https://www.networkworld.com/article/3280225/what-is-digital-twin-technology-and-why-it-matters.html)
