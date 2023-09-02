@@ -29,3 +29,5 @@ That said, the improvements are worth this tradeoff and I can live with copy/pas
 Next steps will be testing [VS Code Server](https://code.visualstudio.com/docs/remote/vscode-server) and [Tunnels](https://code.visualstudio.com/docs/remote/tunnels) to evaluate the feasibility of extending this new workflow to other use cases/projects, where code needs to be run/tested/saved/deployed in a local environment before being pushed up to Github. I plan to then compare this with [Github Codespaces](https://github.com/features/codespaces), to gain some first hand experience of the usability advantages/limitations, and refine my setup accordingly.
 
 In the meantime I will enjoy the new blog workflow, and will update here once I'm aware of a compatible spell checker extension, and if/when the workflow changes.
+
+**Update 2nd September 2023 - Tunnels use server extensions, restoring spell checker and other functionality - covered in the new [post]({{site.baseurl}}/vs-code-tunnels)**
