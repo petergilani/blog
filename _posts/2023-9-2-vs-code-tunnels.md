@@ -5,7 +5,7 @@ title: Visual Studio Code Server Tunnels
 
 Following on from the previous [post]({{site.baseurl}}/improved-blog-workflow/), I have been experimenting with VS Code Tunnels:
 [![vsc-tunnels-arch](https://code.visualstudio.com/assets/docs/remote/vscode-server/server-arch-latest.png)]({{site.baseurl}}/vs-code-tunnels)
-from [code.visualstudio.com](https://code.visualstudio.com/docs/remote/vscode-server)
+*from [code.visualstudio.com](https://code.visualstudio.com/docs/remote/vscode-server)*
 
 It felt like a good time to push forward with this - given the increasing popularity of VS Code:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"></p>
