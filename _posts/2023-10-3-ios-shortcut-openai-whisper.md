@@ -4,7 +4,7 @@ title: iOS Shortcut for local OpenAI Whisper Translation/Transcription
 ---
 
 Recently I've been playing with the open source [Whisper](https://openai.com/research/whisper), and setup an iOS shortcut which I can share a video/audio file to:
-[![whisper_flow]({{ site.baseurl }}/images/whisper-flow.jpg)]({{site.baseurl}}/ios-shortcut-openai-whisper)
+[![whisper_flow]({{ site.baseurl }}/images/whisper-flow.jpeg)]({{site.baseurl}}/ios-shortcut-openai-whisper)
  - Encodes to an audio file locally on iPad
  - Copies audio file via Files (SMB) to shared folder on local Windows machine
  - SSH script logs into Ubuntu WSL2 SSH server on Windows machine
@@ -49,7 +49,7 @@ This greatly simplifies the workflow, and takes advantage of the local GPU resou
  I will plan to add more details with some setup steps, commands and screenshots as and when time permits.
 
  For now, here are some related links:
-  - [https://en.wikipedia.org/wiki/Whisper_%2528speech_recognition_system%2529](https://en.wikipedia.org/wiki/Whisper_%2528speech_recognition_system%2529)
+  - [https://en.wikipedia.org/wiki/Whisper_(speech_recognition_system)](https://en.wikipedia.org/wiki/Whisper_(speech_recognition_system))
   - [https://github.com/openai/whisper](https://github.com/openai/whisper)
   - [https://docs.nvidia.com/cuda/wsl-user-guide/](https://docs.nvidia.com/cuda/wsl-user-guide/)
   - [https://support.apple.com/en-gb/guide/shortcuts/](https://support.apple.com/en-gb/guide/shortcuts/)
