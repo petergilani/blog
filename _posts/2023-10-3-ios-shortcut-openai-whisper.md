@@ -5,6 +5,8 @@ title: iOS Shortcut for local OpenAI Whisper Translation/Transcription
 
 Recently I've been playing with the open source [Whisper](https://openai.com/research/whisper), and setup an iOS shortcut which I can share a video/audio file to:
 [![whisper_flow]({{ site.baseurl }}/images/whisper_flow.jpeg)]({{site.baseurl}}/ios-shortcut-openai-whisper)
+
+## Shortcut Actions
  - Encodes to an audio file locally on iPad
  - Copies audio file via Files (SMB) to shared folder on local Windows machine
  - SSH script logs into Ubuntu WSL2 SSH server on Windows machine
