@@ -3,7 +3,7 @@ layout: post
 title: PrivateGPT
 ---
 
-This last week, I setup [PrivateGPT](https://github.com/imartinez/privateGPT) with [llama.cpp](https://github.com/abetlen/llama-cpp-python):
+This last week, I setup [PrivateGPT](https://github.com/imartinez/privateGPT) with [LlamaCpp](https://github.com/abetlen/llama-cpp-python):
 [![GPUs]({{ site.baseurl }}/images/gpus.jpeg)]({{site.baseurl}}/privategpt)
 
 PrivateGTP allows you to:
