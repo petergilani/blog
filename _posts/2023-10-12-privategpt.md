@@ -1,19 +1,19 @@
 ---
 layout: post
-title: privateGPT
+title: PrivateGPT
 ---
 
 This last week, I setup [PrivateGPT](https://github.com/imartinez/privateGPT) with [llama.cpp](https://github.com/abetlen/llama-cpp-python):
 [![GPUs]({{ site.baseurl }}/images/gpus.jpeg)]({{site.baseurl}}/privategpt)
 
-privateGTP allows you to:
+PrivateGTP allows you to:
 ```"Ask questions to your documents without an internet connection, using the power of LLMs."```
 
 There were a number of issues to work through, to get to the current functional state:
 ![RCG Deep Dive screenshot]({{ site.baseurl }}/images/rcg_product_deep_dive_screenshot.jpeg "RCG Deep Dive screenshot")
 ![RCG Deep Dive query]({{ site.baseurl }}/images/deep_dive_query.jpeg "RCG Deep Dive query")
 
-In this example, I downloaded several public resources, including the [RCG Product Deep Dive](https://www.rackspace.com/resources/ebook-rackconnect-global-product-deep-dive), into the 'source_documents/' directory, which are then ingested, where the data is split into chunks and embeddings are created by your model of choice - currently I am using [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) due to its quality [rating](https://www.sbert.net/docs/pretrained_models.html).
+In this example, I downloaded several public resources, including the [RCG Product Deep Dive](https://www.rackspace.com/resources/ebook-rackconnect-global-product-deep-dive), into the ```'source_documents/'``` directory, which are then ingested, where the data is split into chunks and embeddings are created by your model of choice - currently I am using [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) due to its quality [rating](https://www.sbert.net/docs/pretrained_models.html).
 
 After the embeddings model has generated the new database, run the LLM (Large Language Model) against it to query the newly 'learnt' information. Currently I am using the [koala-7B.ggmlv3.q6_K.bin](https://huggingface.co/TheBloke/koala-7B-GGML) model - more info on Koala [here](https://bair.berkeley.edu/blog/2023/04/03/koala/).
 
@@ -24,14 +24,17 @@ As a side note, I have been using task manager for real time GPU usage, as oppos
 
 The above query is a rudimentary example, demonstrating the interpretive capability of understanding the context of which document, where in it, and what information to extract - based on the given question and documents provided. But the real value comes with the combination and interpretation of multiple sources.
 
-Expect to see another post on this topic - for now here are some related links:
+Expect to see another post on this topic - for now here are some of the setup issues I ran into:
 
- - [LangChain - Run LLMs Locally](https://python.langchain.com/docs/guides/local_llms)
  - [ERROR: Failed building wheel for llama-cpp-python](https://github.com/oobabooga/text-generation-webui/issues/1534)
- - [GPT4All](https://gpt4all.io/)
  - [how can i use gpu to run?](https://github.com/imartinez/privateGPT/issues/79)
  - [llama-cpp-python now supports GPU, privateGPT a lot faster now](https://github.com/imartinez/privateGPT/issues/885)
  - [got the error: out of memory ,when invoke cuda in wsl2](https://github.com/microsoft/WSL/issues/8447)
  - [Failed to detect a default CUDA architecture](https://github.com/abetlen/llama-cpp-python/issues/627)
- - [Llama 2](https://ai.meta.com/blog/llama-2/)
+
+And here are some related links:
+
+ - [LangChain - Run LLMs Locally](https://python.langchain.com/docs/guides/local_llms)
+ - [GPT4All](https://gpt4all.io/)
+ - [Llama 2 Announcement](https://ai.meta.com/blog/llama-2/)
  - [Llama 2 Research](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
