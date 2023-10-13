@@ -23,14 +23,35 @@ After the embeddings model has generated the new database, run the LLM (Large La
 
 The above query is a rudimentary example, demonstrating the interpretive capability of understanding the context of which document, where in it, and what information to extract - based on the given question and documents provided. But the real value comes with the combination and interpretation of multiple sources.
 
-## Performance
+## Accuracy
+Astute readers may notice that while the answer is correct in terms of the two cloud providers identified, [OCI (Oracle Cloud Infrastructure)](https://docs.oracle.com/en-us/iaas/Content/home.htm) has not been referred to as OCP (Platform) for quite some time, making this an error that should be corrected.
+
+The term is not found in any the documents I ingested, so is a limitation of the LLM's existing knowledge (which it states has a cutoff date of 2021-12-31) - so this is really something we would expect it to already know.
+
+With the ability to ingest more documents and embed into our existing database, this is easily solved with a PDF of the [OCI User Guide](https://www.oracle.com/oce/dc/assets/CONT1B79FBD79BF543B18459A353101B0F91/native/oci-user-guide.pdf).
+
+5,787 pages and 10 mins of embeddings later, our model has 'learnt' the specifics of Oracle Cloud.
+
+Now, no matter how many times I repeat the question, it does not make the same mistake as before and correctly uses either Oracle Cloud Infrastructure, or just Oracle Cloud, every time:
+
+```
+> Answer (took 4.25 s.):
+ In the first scenario for RCG for multicloud connectivity, a managed dedicated customer wants to establish private, high speed and low latency connectivity between AWS and Oracle Cloud via Partner Fabric.
+
+> Answer (took 11.96 s.):
+ When discussing RackConnect Global in the context of multicloud connectivity, both AWS and Oracle Cloud Infrastructure are used. The specific details of the connectivity between these two cloud providers will depend on the customer's requirements and implementation details.
+```
+
+## Performance and Monitoring
 The result so far provides an impressive experience. Responses are accurate more often than not and returned in an acceptable time (~6-30s) using the combined compute power of my x3 NVIDIA GeForce GTX TITAN X GPUs. There seems to be potential to further tune performance as the individual GPUs are peaking around 60-70% compute, and different models may provide more accurate and improved responses.
 ![GPU Usage]({{ site.baseurl }}/images/gpu_usage.jpeg "GPU Usage")
 
-As a side note, I have been using task manager for real time GPU usage, as opposed to Grafana, which has the 10s delay interval to Prometheus, which itself has 10s interval to Telegraf, which itself is polling individual metrics such as GPU usage at a 10s interval, meaning the most recent value in Grafana can be up to 20s behind depending on how the intervals overlap. So this got me thinking, why can't Grafana hit Telegraf directly to facilitate a real-time dashboard for when the focus is current as opposed to historical usage? It turns out this was recently made [possible](https://grafana.com/tutorials/stream-metrics-from-telegraf-to-grafana/) which I plan to setup ASAP and cover in a future post.
+As a side note, I have been using task manager for real time GPU usage, as opposed to Grafana, which has the 10s delay interval to Prometheus, which itself has 10s interval to Telegraf, which itself is polling individual metrics such as GPU usage at a 10s interval, meaning the most recent value in Grafana can be up to 20s behind depending on how the intervals overlap. So this got me thinking, why can't Grafana talk to Telegraf directly to facilitate a real-time dashboard for when the focus is current as opposed to historical usage? It turns out this was recently made [possible](https://grafana.com/tutorials/stream-metrics-from-telegraf-to-grafana/) which I plan to setup ASAP and cover in a future post.
 
 **Update 13th Oct 23** - Telegraf -> Grafana realtime streaming working
 ![GPU Util Stream]({{ site.baseurl }}/images/gpu_util_stream.gif "GPU Util Stream")
+![GPU Speed]({{ site.baseurl }}/images/gpu_speed.gif "GPU Speed")
+The metrics now populate in the new live visualization dashboards within ~2s of being collected, which is realtime enough for me to happily ditch task manager. I will consider deploying a new Grafana instance on the same network subnet, or even the same machine as privateGPT, to see how much I can bring this number down.
 
 ## Issues
 Expect to see another post on this topic - for now here are some of the setup issues I ran into:
