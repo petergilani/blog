@@ -18,16 +18,16 @@ In this example, I downloaded several public resources, including the [RCG Produ
 
 After the embeddings model has generated the new database, run the LLM (Large Language Model) against it to query the newly 'learnt' information. Currently I am using the [koala-7B.ggmlv3.q6_K.bin](https://huggingface.co/TheBloke/koala-7B-GGML) model - more info on Koala [here](https://bair.berkeley.edu/blog/2023/04/03/koala/).
 
-## Result
+The above query is a rudimentary example, demonstrating the interpretive capability of understanding the context of which document, where in it, and what information to extract - based on the given question and documents provided. But the real value comes with the combination and interpretation of multiple sources.
+
+## Performance
 The result so far provides an impressive experience. Responses are accurate more often than not and returned in an acceptable time (~6-30s) using the combined compute power of my x3 NVIDIA GeForce GTX TITAN X GPUs. There seems to be potential to further tune performance as the individual GPUs are peaking around 60-70% compute, and different models may provide more accurate and improved responses.
 ![GPU Usage]({{ site.baseurl }}/images/gpu_usage.jpeg "GPU Usage")
 
 As a side note, I have been using task manager for real time GPU usage, as opposed to Grafana, which has the 10s delay interval to Prometheus, which itself has 10s interval to Telegraf, which itself is polling individual metrics such as GPU usage at a 10s interval, meaning the most recent value in Grafana can be up to 20s behind depending on how the intervals overlap. So this got me thinking, why can't Grafana hit Telegraf directly to facilitate a real-time dashboard for when the focus is current as opposed to historical usage? It turns out this was recently made [possible](https://grafana.com/tutorials/stream-metrics-from-telegraf-to-grafana/) which I plan to setup ASAP and cover in a future post.
 
-**Update 13th Oct 23 - Telegraf -> Grafana realtime streaming working**
+**Update 13th Oct 23** - Telegraf -> Grafana realtime streaming working
 ![GPU Util Stream]({{ site.baseurl }}/images/gpu_util_stream.gif "GPU Util Stream")
-
-The above query is a rudimentary example, demonstrating the interpretive capability of understanding the context of which document, where in it, and what information to extract - based on the given question and documents provided. But the real value comes with the combination and interpretation of multiple sources.
 
 ## Issues
 Expect to see another post on this topic - for now here are some of the setup issues I ran into:
