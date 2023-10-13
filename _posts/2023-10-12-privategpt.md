@@ -6,7 +6,7 @@ title: PrivateGPT
 This last week, I setup [PrivateGPT](https://github.com/imartinez/privateGPT) with [LlamaCpp](https://github.com/abetlen/llama-cpp-python):
 [![GPUs]({{ site.baseurl }}/images/gpus.jpeg)]({{site.baseurl}}/privategpt)
 
-PrivateGTP allows you to:
+PrivateGPT allows you to:
 ```"Ask questions to your documents without an internet connection, using the power of LLMs."```
 
 ## Example
