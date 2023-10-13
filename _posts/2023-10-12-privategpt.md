@@ -12,7 +12,8 @@ PrivateGTP allows you to:
 ## Example
 There were a number of [issues](#issues) to work through, to get to the current functional state:
 ![RCG Deep Dive screenshot]({{ site.baseurl }}/images/rcg_product_deep_dive_screenshot.jpeg "RCG Deep Dive screenshot")
-![RCG Deep Dive query]({{ site.baseurl }}/images/deep_dive_query.jpeg "RCG Deep Dive query")
+[![RCG Deep Dive query]({{ site.baseurl }}/images/deep_dive_query.jpeg "RCG Deep Dive query")]({{ site.baseurl }}/images/deep_dive_query.jpeg)
+*Click image to expand*
 
 In this example, I downloaded several public resources, including the [RCG Product Deep Dive](https://www.rackspace.com/resources/ebook-rackconnect-global-product-deep-dive), into the ```'source_documents/'``` directory, which are then ingested, where the data is split into chunks and embeddings are created by your model of choice - currently I am using [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) due to its quality [rating](https://www.sbert.net/docs/pretrained_models.html).
 
