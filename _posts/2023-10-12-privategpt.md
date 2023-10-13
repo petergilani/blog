@@ -24,7 +24,7 @@ The result so far provides an impressive experience. Responses are accurate more
 
 As a side note, I have been using task manager for real time GPU usage, as opposed to Grafana, which has the 10s delay interval to Prometheus, which itself has 10s interval to Telegraf, which itself is polling individual metrics such as GPU usage at a 10s interval, meaning the most recent value in Grafana can be up to 20s behind depending on how the intervals overlap. So this got me thinking, why can't Grafana hit Telegraf directly to facilitate a real-time dashboard for when the focus is current as opposed to historical usage? It turns out this was recently made [possible](https://grafana.com/tutorials/stream-metrics-from-telegraf-to-grafana/) which I plan to setup ASAP and cover in a future post.
 
-** Update 13th Oct 23 - Telegraf -> Grafana realtime streaming working**
+**Update 13th Oct 23 - Telegraf -> Grafana realtime streaming working**
 ![GPU Util Stream]({{ site.baseurl }}/images/gpu_util_stream.gif "GPU Util Stream")
 
 The above query is a rudimentary example, demonstrating the interpretive capability of understanding the context of which document, where in it, and what information to extract - based on the given question and documents provided. But the real value comes with the combination and interpretation of multiple sources.
