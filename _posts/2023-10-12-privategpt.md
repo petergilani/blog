@@ -9,15 +9,17 @@ This last week, I setup [PrivateGPT](https://github.com/imartinez/privateGPT) wi
 PrivateGPT allows you to:
 ```"Ask questions to your documents without an internet connection, using the power of LLMs."```
 
+There were a number of [issues](#issues) to work through, to get to the current functional state.
+
 ## Example
-There were a number of [issues](#issues) to work through, to get to the current functional state:
+
+In this example, I downloaded several public resources, including the [RCG Product Deep Dive](https://www.rackspace.com/resources/ebook-rackconnect-global-product-deep-dive), into the ```'source_documents/'``` directory, which are then ingested, where the data is split into chunks and embeddings are created by your model of choice - currently I am using [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) due to its quality [rating](https://www.sbert.net/docs/pretrained_models.html):
+
 ![RCG Deep Dive screenshot]({{ site.baseurl }}/images/rcg_product_deep_dive_screenshot.jpeg "RCG Deep Dive screenshot")
+
+After the embeddings model has generated the new database, run the LLM (Large Language Model) against it to query the newly 'learnt' information. Currently I am using the [koala-7B.ggmlv3.q6_K.bin](https://huggingface.co/TheBloke/koala-7B-GGML) model - more info on Koala [here](https://bair.berkeley.edu/blog/2023/04/03/koala/):
 [![RCG Deep Dive query]({{ site.baseurl }}/images/deep_dive_query.jpeg "RCG Deep Dive query")]({{ site.baseurl }}/images/deep_dive_query.jpeg)
 *Click image to expand*
-
-In this example, I downloaded several public resources, including the [RCG Product Deep Dive](https://www.rackspace.com/resources/ebook-rackconnect-global-product-deep-dive), into the ```'source_documents/'``` directory, which are then ingested, where the data is split into chunks and embeddings are created by your model of choice - currently I am using [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) due to its quality [rating](https://www.sbert.net/docs/pretrained_models.html).
-
-After the embeddings model has generated the new database, run the LLM (Large Language Model) against it to query the newly 'learnt' information. Currently I am using the [koala-7B.ggmlv3.q6_K.bin](https://huggingface.co/TheBloke/koala-7B-GGML) model - more info on Koala [here](https://bair.berkeley.edu/blog/2023/04/03/koala/).
 
 The above query is a rudimentary example, demonstrating the interpretive capability of understanding the context of which document, where in it, and what information to extract - based on the given question and documents provided. But the real value comes with the combination and interpretation of multiple sources.
 
