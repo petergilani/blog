@@ -34,7 +34,7 @@ With the ability to ingest more documents and embed into our existing database, 
 
 Now, no matter how many times I repeat the question, it does not make the same mistake as before and correctly uses either Oracle Cloud Infrastructure, or just Oracle Cloud, every time:
 
-```
+```Logtalk
 > Answer (took 4.25 s.):
  In the first scenario for RCG for multicloud connectivity, a managed dedicated customer wants to establish private, high speed and low latency connectivity between AWS and Oracle Cloud via Partner Fabric.
 
