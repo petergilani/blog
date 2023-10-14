@@ -49,6 +49,7 @@ As a side note, I have been using task manager for real time GPU usage, as oppos
 **Update 13th Oct 23** - Telegraf -> Grafana realtime streaming working
 ![GPU Util Stream]({{ site.baseurl }}/images/gpu_util_stream.gif "GPU Util Stream")
 ![GPU Speed]({{ site.baseurl }}/images/gpu_speed.gif "GPU Speed")
+
 The metrics now populate in the new live visualization dashboards within ~2s of being collected, which is realtime enough for me to happily ditch task manager. I will consider deploying a new Grafana instance on the same network subnet, or even the same machine as privateGPT, to see how much I can bring this number down.
 
 ## Issues
