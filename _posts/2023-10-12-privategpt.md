@@ -34,11 +34,11 @@ With the ability to ingest more documents and embed into our existing database, 
 
 Now, no matter how many times I repeat the question, it does not make the same mistake as before and correctly uses either Oracle Cloud Infrastructure, or just Oracle Cloud, every time:
 
-```> Answer (took 4.25 s.):
+> Answer (took 4.25 s.):
  In the first scenario for RCG for multicloud connectivity, a managed dedicated customer wants to establish private, high speed and low latency connectivity between AWS and Oracle Cloud via Partner Fabric.
 
 > Answer (took 11.96 s.):
- When discussing RackConnect Global in the context of multicloud connectivity, both AWS and Oracle Cloud Infrastructure are used. The specific details of the connectivity between these two cloud providers will depend on the customer's requirements and implementation details.```
+ When discussing RackConnect Global in the context of multicloud connectivity, both AWS and Oracle Cloud Infrastructure are used. The specific details of the connectivity between these two cloud providers will depend on the customer's requirements and implementation details.
 
 ## Performance and Monitoring
 The result so far provides an impressive experience. Responses are accurate more often than not and returned in an acceptable time (~6-30s) using the combined compute power of my x3 NVIDIA GeForce GTX TITAN X GPUs. There seems to be potential to further tune performance as the individual GPUs are peaking around 60-70% compute, and different models may provide more accurate and improved responses.
