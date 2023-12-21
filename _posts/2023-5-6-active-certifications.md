@@ -33,6 +33,11 @@ List of active certs:
 
 ![microsoft-certified-associate-badge](https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg)
 
+## AWS
+* AWS Certified Advanced Networking - Specialty [verify](https://aws.amazon.com/verification) with code ```YBV2R0RLY1F4QN99```
+
+![aws-adv-net-badge](https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Advanced-Networking-Specialty_badge.e09a4e04210dd4dd57ace21344af66986d4b4dc7.png)
+
 ### Retired
 * CCDP
 * CCSP
