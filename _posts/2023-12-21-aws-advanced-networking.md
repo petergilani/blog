@@ -36,5 +36,5 @@ The learning path was comprehensive and covered all topics from their foundation
 
 I didn't realise when I started the learning path, but the strong focus on the exam for the last parts was a very nice surprise. The topic reviews, practice questions, video review of practice questions, flashcards, and then the final Networking Core Knowledge Badge Assessment were all very helpful. I failed the final assessment by a few points on the first attempt a few days back, and then passed on second attempt the evening before taking the exam, with a very similar score to the exam - so the badge assessment felt like a realistic gauge of preparedness.
 
-Given the exam focus, I didn't need to venture to third party learning providers, however I did run through the following playlist as I had been meaning to check out some of Adrian's content for a while:
-{% include youtube.html playlist="PLTk5ZYSbd9MgokEYv4GSOrYHPDrvppnCR" %}
+Given the exam focus, I didn't need to venture to third party learning providers, however I did run through some of the exam question walkthroughs from [LearnCantrill](https://youtube.com/@LearnCantrill) as I had been meaning to check out some of Adrian's content for a while:
+{% include youtube.html id="4k2QdUknbtU" %}
