@@ -4,7 +4,6 @@ title: Cisco - Foundation-sec-8b
 ---
 
 This last week, on Monday 28th April, Cisco released [Fondation-Sec-8B](https://huggingface.co/fdtn-ai/Foundation-Sec-8B):
-
 [![Fondation-sec-Announcement]({{ site.baseurl }}/images/ai-security.jpeg)](https://blogs.cisco.com/security/foundation-sec-cisco-foundation-ai-first-open-source-security-model)
 
 A notable first for Cisco, spearheaded by their new [Foundation AI Team](https://blogs.cisco.com/security/foundation-ai-building-the-intelligent-future-of-cybersecurity), **Fondation-Sec-8B** is 
