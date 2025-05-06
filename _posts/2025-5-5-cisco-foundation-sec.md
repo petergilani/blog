@@ -31,3 +31,4 @@ For more details, see the full technical report [here](https://arxiv.org/abs/250
 Of particular note, was the depth to which the team went to improve the quality of their training data, requiring both significant effort as well as expertise, in order to achieve the impressive improvements they demonstrated over the base Llama model, and even larger/frontier models.
 
 I've been testing the model, alongside other recent releases in the LLM space, over the last few days, and will be updating this post with some hands-on example and additional details as time permits.
+{% include youtube.html id="agM78cnH2xw" %}
