@@ -33,5 +33,7 @@ The above models and specific quantizations are not in any way an indication of 
 
 ## Related
 [Introducing advanced tool use on the Claude Developer Platform](https://www.anthropic.com/engineering/advanced-tool-use)
+
 [Agent Skills](https://agentskills.io/home)
+
 [Tool Use Example](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/examples/tool_use.py)
